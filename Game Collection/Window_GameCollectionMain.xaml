@@ -1,0 +1,13 @@
+﻿<Window x:Class="GameCollection.Windows.Window_GameCollectionMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Game Collection" Height="350" Width="525">
+    <Grid Margin="0,0,2,1">
+        <ComboBox x:Name="ComboBox_ConsoleFamilyName" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="169" DropDownClosed="ComboBox_ConsoleFamilyName_DropDownClosed"/>
+        <Label x:Name="Label_SelectConsole" Content="Select a Console Family" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="169" HorizontalContentAlignment="Center"/>
+        <Button x:Name="Button_AddAConsole" Content="Add a New Console" HorizontalAlignment="Left" Margin="237,68,0,0" VerticalAlignment="Top" Width="169" RenderTransformOrigin="1.44,-0.45" Click="Button_AddAConsole_Click"/>
+        <Button x:Name="Button_AddAConsoleFamily" Content="Add A Console Family" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Width="169" HorizontalContentAlignment="Center" Click="Button_AddAConsoleFamily_Click"/>
+        <Label Content="Select a Console" HorizontalAlignment="Left" Margin="237,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.423" Width="169" HorizontalContentAlignment="Center"/>
+        <ComboBox x:Name="ComboBox_ConsoleName" HorizontalAlignment="Left" Margin="237,41,0,0" VerticalAlignment="Top" Width="169"/>
+    </Grid>
+</Window>

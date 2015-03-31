@@ -1,0 +1,14 @@
+﻿<Window x:Class="GameCollection.Windows.Window_AddAConsoleFamily"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add a Console Family" Height="186" Width="294">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="175*"/>
+            <ColumnDefinition Width="111*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="Label_ConsoleFamilyName" Content="Console Family Name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="266" HorizontalContentAlignment="Center" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="TextBox_ConsoleFamilyName" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="266" Grid.ColumnSpan="2" HorizontalContentAlignment="Center"/>
+        <Button x:Name="Button_AddConsoleFamily" Content="Add Console Family" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" Width="266" Grid.ColumnSpan="2" HorizontalContentAlignment="Center" Click="Button_AddConsoleFamily_Click"/>
+    </Grid>
+</Window>
